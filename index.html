@@ -18,10 +18,67 @@
 
 .pub-summary{display:flex;gap:8px;align-items:center;flex-wrap:wrap;justify-content:flex-end}.pub-summary strong{font-size:22px;color:var(--navy)}.pub-summary span{font-size:11px;color:var(--muted);margin-right:10px}.pub-note{font-size:12px;color:var(--muted);margin:0 0 14px;padding:12px 14px;background:#f7fafc;border-radius:12px}.pub-list{display:grid;grid-template-columns:1fr 1fr;gap:0 24px}.pub-card{display:flex;gap:14px;padding:16px 0;border-bottom:1px solid var(--line);min-width:0}.pub-year{font-weight:800;color:var(--blue);min-width:42px;font-size:13px}.pub-main h4{margin:0;font-size:14px;line-height:1.45}.pub-main h4 a{color:var(--navy);text-decoration:none}.pub-main h4 a:hover{color:var(--blue)}.pub-authors,.pub-venue{margin:5px 0 0!important;color:var(--muted);font-size:11.5px!important;line-height:1.45}.cite{font-weight:700;color:var(--green)}
 @media(max-width:900px){.pub-list{grid-template-columns:1fr}.section-head{align-items:flex-start;flex-direction:column}.pub-summary{justify-content:flex-start}}
-.awards-grid .eyebrow{display:inline-block;font-size:.72rem;letter-spacing:.08em;text-transform:uppercase;opacity:.7;margin-bottom:.55rem;font-weight:700}.awards-grid h4{margin-top:.1rem}.awards-grid p{margin-bottom:0}</style>
+.awards-grid .eyebrow{display:inline-block;font-size:.72rem;letter-spacing:.08em;text-transform:uppercase;opacity:.7;margin-bottom:.55rem;font-weight:700}.awards-grid h4{margin-top:.1rem}.awards-grid p{margin-bottom:0}
+/* V10 visual refinement — premium scientific portfolio */
+:root{
+  --navy:#08223f;--navy-2:#0d355c;--blue:#1477e8;--cyan:#16a6c8;--green:#16a06f;
+  --ink:#152235;--muted:#66758a;--bg:#f2f6fa;--card:#ffffff;--line:#dfe7ef;
+  --gold:#d7a91e;--shadow:0 14px 38px rgba(8,34,63,.08);--shadow-hover:0 18px 46px rgba(8,34,63,.14)
+}
+html{scroll-padding-top:20px}
+body{background:linear-gradient(180deg,#f6f9fc 0%,#eef3f8 100%);color:var(--ink);letter-spacing:-.005em}
+.app{min-height:100vh}
+.sidebar{width:248px;padding:20px 14px;background:linear-gradient(180deg,#061a32 0%,#092d50 58%,#073c59 100%);box-shadow:10px 0 32px rgba(3,22,42,.12)}
+.brand{padding:8px 11px 20px;margin-bottom:14px}
+.brand-mark{width:46px;height:46px;border-radius:14px;background:linear-gradient(135deg,#1598ed,#21bd8b);box-shadow:0 8px 20px rgba(21,152,237,.2);font-size:21px}
+.brand h1{font-size:18px;letter-spacing:-.02em}.brand p{font-size:12px;color:#aac1d7}
+.nav a{padding:9px 11px;border-radius:10px;margin:2px 0;font-size:12.5px;color:#d7e6f4;transition:all .18s ease}
+.nav a:hover{background:rgba(255,255,255,.09);transform:translateX(2px)}
+.nav a.active{background:linear-gradient(90deg,#147fee,#1597e8);box-shadow:0 8px 18px rgba(20,127,238,.22)}
+.nav span{font-size:13px;opacity:.9}
+.main{margin-left:248px;width:calc(100% - 248px)}
+.hero{min-height:500px;padding:72px 6vw 54px;overflow:hidden;background:
+ radial-gradient(circle at 84% 18%,rgba(35,196,183,.28),transparent 26%),
+ radial-gradient(circle at 72% 70%,rgba(20,119,232,.26),transparent 34%),
+ linear-gradient(115deg,#05182e 0%,#0a3659 54%,#08706d 100%)}
+.hero:after{content:"";position:absolute;inset:0;pointer-events:none;opacity:.16;background-image:linear-gradient(rgba(255,255,255,.12) 1px,transparent 1px),linear-gradient(90deg,rgba(255,255,255,.12) 1px,transparent 1px);background-size:42px 42px;mask-image:linear-gradient(to right,transparent,black 35%,black 80%,transparent)}
+.hero-inner{position:relative;z-index:1;max-width:1000px}
+.eyebrow{font-size:11px;letter-spacing:.16em;color:#8ee6c2}
+.hero h2{font-size:clamp(42px,5.6vw,72px);text-shadow:0 4px 22px rgba(0,0,0,.16);margin:14px 0 8px}
+.hero .role{font-size:19px}.hero .org{font-size:15px;color:#d9e9f5}.tagline{font-size:23px;margin-top:28px;color:#ffe47b}
+.content{max-width:1360px;padding:0 4.5vw 90px}
+.metrics{grid-template-columns:repeat(5,minmax(0,1fr));gap:13px;margin-top:-48px}
+.metric{padding:18px 19px;border-radius:16px;box-shadow:0 12px 30px rgba(8,34,63,.09);transition:transform .2s ease,box-shadow .2s ease}
+.metric:hover{transform:translateY(-3px);box-shadow:var(--shadow-hover)}
+.metric strong{font-size:22px}.metric span{font-size:11px}
+.section{padding-top:64px}.section-head{margin-bottom:20px}.section h3,.section h2{font-size:28px;letter-spacing:-.035em}.section-head p{font-size:13px;max-width:700px}
+.grid{gap:16px}
+.card{border-radius:16px;padding:21px;border:1px solid rgba(214,225,236,.9);box-shadow:0 8px 24px rgba(8,34,63,.045);transition:transform .2s ease,box-shadow .2s ease,border-color .2s ease;position:relative;overflow:hidden}
+.card:before{content:"";position:absolute;left:0;top:0;width:100%;height:3px;background:linear-gradient(90deg,#1477e8,#18a7c9,#18a06e);opacity:0;transition:opacity .2s ease}
+.card:hover{transform:translateY(-4px);box-shadow:var(--shadow-hover);border-color:#cbd9e7}.card:hover:before{opacity:1}
+.card h4{font-size:16px;line-height:1.35;margin:9px 0 7px}.card p{font-size:12.5px;line-height:1.6}
+.icon{width:40px;height:40px;border-radius:11px;background:linear-gradient(135deg,#e9f3ff,#eefaf7);font-size:16px;font-weight:700}
+.pill{font-size:10px;padding:5px 8px;margin-top:13px}
+.about{gap:16px}.about .card{padding:26px}.quote{font-size:19px}
+.project-list{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:16px}.project{height:100%}.project .meta{font-size:10px;letter-spacing:.04em;text-transform:uppercase;color:#1677e8;font-weight:800;margin-top:10px}.project h4{font-size:16px}
+.project-card{background:#fff;border:1px solid var(--line);border-radius:14px;padding:18px 20px;margin-top:12px;box-shadow:0 6px 20px rgba(8,34,63,.04)}.project-card h3{font-size:16px;margin:0 0 5px;color:var(--navy)}.project-card p{font-size:12px;color:var(--muted);margin:0}
+.cards-2{grid-template-columns:repeat(3,minmax(0,1fr))}
+#patents .card{padding:20px;min-height:190px}.card h3{font-size:17px;line-height:1.35;margin:9px 0 12px;color:var(--navy)}
+#patents .card p{font-size:11.5px;margin:4px 0;color:var(--muted)}
+#patents .eyebrow{font-size:9.5px;letter-spacing:.11em;color:#14966a}
+.pub-note{border:1px solid #e5edf4;background:#f8fbfd}.pub-list{column-gap:32px}.pub-card{padding:14px 0}.pub-main h4{font-size:13px;line-height:1.5}.pub-authors,.pub-venue{font-size:11px!important}
+.awards-grid .card{min-height:150px}
+.cta{margin-top:60px;border-radius:20px;padding:30px 32px;box-shadow:0 14px 35px rgba(8,34,63,.1)}
+.footer{padding:28px 5vw 34px;font-size:11px}
+.social a{transition:all .18s ease}.social a:hover{background:#1477e8;transform:translateY(-2px)}
+@media(max-width:1100px){.sidebar{width:225px}.main{margin-left:225px;width:calc(100% - 225px)}.metrics{grid-template-columns:repeat(3,1fr)}.cards-2{grid-template-columns:repeat(2,minmax(0,1fr))}}
+@media(max-width:850px){.project-list{grid-template-columns:1fr}.cards-2{grid-template-columns:1fr 1fr}}
+@media(max-width:760px){.sidebar{display:none}.main{margin-left:0;width:100%}.hero{min-height:470px;padding:96px 24px 40px}.hero h2{font-size:40px}.tagline{font-size:18px}.content{padding:0 18px 60px}.metrics{grid-template-columns:repeat(2,1fr);margin-top:-24px}.section{padding-top:46px}.cards-2{grid-template-columns:1fr}.card{padding:19px}.section h3,.section h2{font-size:25px}}
+
+</style>
 </head>
 <body>
-<div class="mobile-top"><strong>Dr. Mir Wasim Raja</strong><a href="#research">☰</a></div>
+<div class="mobile-top"><strong>Dr. Mir Wasim Raja</strong><a href="#research" aria-label="Jump to research">☰</a></div>
 <div class="app">
 <aside class="sidebar">
 <div class="brand"><div class="brand-mark">⚗</div><h1>Dr. Mir Wasim Raja</h1><p>Scientific Portfolio</p></div>
