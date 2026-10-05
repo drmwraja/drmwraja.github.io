@@ -1,0 +1,10 @@
+{
+  "name": "Dr. Mir Wasim Raja — Scientific Portfolio",
+  "short_name": "Wasim Raja",
+  "description": "Scientific portfolio of Dr. Mir Wasim Raja, Principal Scientist at CSIR-CGCRI.",
+  "start_url": "./",
+  "display": "standalone",
+  "background_color": "#f5f8fc",
+  "theme_color": "#0b2342",
+  "icons": [{"src":"icon.svg","sizes":"any","type":"image/svg+xml","purpose":"any maskable"}]
+}

@@ -1,239 +1,61 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-<title>Dr Mir Wasim Raja</title>
-
-<link rel="stylesheet" href="styles.css">
-
-<style>section{
-    margin-bottom:15px;
-}
-body{
-    font-family: Arial, Helvetica, sans-serif;
-    margin:0;
-    background:#ffffff;
-    color:#222;
-    line-height:1.6;
-}
-
-header{
-    background:#ffffff;
-    border-bottom:1px solid #ddd;
-    position:sticky;
-    top:0;
-    z-index:100;
-}
-
-nav{
-    max-width:1100px;
-    margin:auto;
-    display:flex;
-    justify-content:space-between;
-    align-items:center;
-    padding:18px;
-}
-
-nav a{
-    text-decoration:none;
-    color:#222;
-    margin-left:20px;
-    font-weight:500;
-}
-
-.container{
-    max-width:1100px;
-    margin:auto;
-    padding:20px 20px;
-}
-
-.hero{
-    display:flex;
-    flex-wrap:wrap;
-    align-items:center;
-    justify-content:space-between;
-    margin-bottom:20px;
-}
-.text{
-    flex:1;
-    min-width:300px;
-}
-
-.image{
-    flex:0 0 300px;
-    text-align:center;
-}
-
-.image img{
-    width:260px;
-    border-radius:6px;
-}
-
-h1{
-    font-size:42px;
-    margin-bottom:2px;
-}
-
-h2{
-    margin-top:20px;
-    margin-bottom:12px;
-    border-bottom:2px solid #003366;
-    padding-bottom:6px;
-    color:#003366;
-}
-ul{
-    padding-left:20px;
-}
-
-footer{
-    background:#f4f4f4;
-    text-align:center;
-    padding:30px;
-    margin-top:60px;
-}
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<meta name="description" content="Scientific portfolio of Dr. Mir Wasim Raja, Principal Scientist at CSIR-CGCRI, Kolkata." />
+<link rel="manifest" href="manifest.webmanifest" />
+<meta name="theme-color" content="#0b2342" />
+<title>Dr. Mir Wasim Raja | Scientific Portfolio</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Source+Serif+4:opsz,wght@8..60,500;8..60,600&display=swap" rel="stylesheet">
+<style>
+:root{--navy:#0b2342;--blue:#1677e8;--cyan:#19a7ce;--green:#15966a;--ink:#172033;--muted:#64748b;--bg:#f5f8fc;--card:#fff;--line:#e5ebf3;--gold:#d5a514;--shadow:0 12px 32px rgba(13,35,66,.08)}
+*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;background:var(--bg);color:var(--ink);font-family:Inter,system-ui,sans-serif;line-height:1.6}.app{display:flex;min-height:100vh}.sidebar{width:270px;background:linear-gradient(180deg,#071c36,#0d3158);color:#fff;position:fixed;inset:0 auto 0 0;padding:24px 16px;z-index:20}.brand{padding:8px 12px 22px;border-bottom:1px solid rgba(255,255,255,.12);margin-bottom:18px}.brand-mark{width:42px;height:42px;border-radius:12px;background:linear-gradient(135deg,#2a9bf4,#24bf88);display:grid;place-items:center;font-size:22px;font-weight:800;margin-bottom:12px}.brand h1{font-size:19px;line-height:1.2;margin:0}.brand p{margin:6px 0 0;color:#b8cbe0;font-size:13px}.nav a{display:flex;gap:12px;align-items:center;color:#dce9f6;text-decoration:none;padding:11px 13px;border-radius:12px;margin:3px 0;font-size:14px}.nav a:hover,.nav a.active{background:#1684ed;color:#fff}.nav span{width:22px;text-align:center}.social{position:absolute;bottom:22px;left:20px;right:20px;display:flex;gap:8px}.social a{width:31px;height:31px;border-radius:9px;background:rgba(255,255,255,.1);display:grid;place-items:center;color:#fff;text-decoration:none;font-size:12px}.main{margin-left:270px;width:calc(100% - 270px)}.hero{min-height:430px;background:radial-gradient(circle at 80% 20%,rgba(25,167,206,.32),transparent 32%),linear-gradient(110deg,#061a32,#0b4266 58%,#0a6a68);display:flex;align-items:end;color:#fff;padding:58px 6vw 46px;position:relative}.hero-inner{max-width:1050px}.eyebrow{color:#8be2b9;text-transform:uppercase;letter-spacing:.14em;font-size:12px;font-weight:700}.hero h2{font-size:clamp(36px,5vw,64px);line-height:1.03;margin:12px 0 10px;letter-spacing:-.04em}.hero .role{font-size:18px;font-weight:600;margin:0 0 3px}.hero .org{font-size:15px;color:#d9e7f4}.tagline{font-family:'Source Serif 4',serif;font-size:22px;color:#f6dc67;margin-top:25px}.content{max-width:1250px;margin:auto;padding:30px 5vw 80px}.metrics{display:grid;grid-template-columns:repeat(5,1fr);gap:14px;margin-top:-58px;position:relative;z-index:2}.metric{background:#fff;border:1px solid var(--line);border-radius:17px;padding:20px;box-shadow:var(--shadow)}.metric strong{display:block;font-size:25px;color:var(--navy)}.metric span{font-size:12px;color:var(--muted)}.section{padding-top:58px}.section-head{display:flex;justify-content:space-between;gap:20px;align-items:end;margin-bottom:22px}.section h3{font-size:30px;margin:0;color:var(--navy);letter-spacing:-.025em}.section-head p{margin:4px 0 0;color:var(--muted);font-size:14px}.grid{display:grid;grid-template-columns:repeat(3,1fr);gap:18px}.card{background:var(--card);border:1px solid var(--line);border-radius:18px;padding:23px;box-shadow:0 7px 22px rgba(13,35,66,.045)}.card h4{margin:8px 0 8px;color:var(--navy);font-size:17px}.card p{margin:0;color:var(--muted);font-size:13px}.icon{width:44px;height:44px;border-radius:13px;background:#eaf4ff;color:var(--blue);display:grid;place-items:center;font-size:20px}.research .card{min-height:170px}.pill{display:inline-block;font-size:11px;font-weight:700;padding:5px 9px;border-radius:999px;background:#edf7f3;color:#0d7d58;margin-top:14px}.about{display:grid;grid-template-columns:1.25fr .75fr;gap:20px}.about .card{padding:28px}.quote{border-left:4px solid var(--gold);padding-left:18px;font-family:'Source Serif 4',serif;font-size:20px;color:var(--navy)}.timeline{position:relative}.timeline:before{content:'';position:absolute;left:9px;top:6px;bottom:8px;width:2px;background:#dbe5ef}.event{position:relative;padding-left:35px;margin-bottom:24px}.dot{position:absolute;left:3px;top:5px;width:14px;height:14px;border-radius:50%;background:var(--blue);border:3px solid #dcecff}.event b{font-size:13px;color:var(--blue)}.event h4{margin:2px 0 4px}.event p{font-size:13px;color:var(--muted);margin:0}.publication{display:flex;gap:15px;padding:17px 0;border-bottom:1px solid var(--line)}.publication:last-child{border-bottom:0}.year{font-weight:800;color:var(--blue);min-width:48px}.publication h4{margin:0;font-size:14px}.publication p{margin:3px 0 0;color:var(--muted);font-size:12px}.cta{margin-top:55px;background:linear-gradient(110deg,#0a2444,#125e8e);border-radius:24px;padding:34px;color:#fff;display:flex;align-items:center;justify-content:space-between;gap:20px}.cta h3{margin:0 0 6px;font-size:24px}.cta p{margin:0;color:#cce0ef;font-size:13px}.btn{display:inline-flex;align-items:center;gap:8px;background:#fff;color:var(--navy);font-weight:700;text-decoration:none;padding:12px 17px;border-radius:11px;font-size:13px;white-space:nowrap}.footer{padding:30px 5vw;color:#718096;font-size:12px;text-align:center}.mobile-top{display:none}.tag{font-size:11px;color:#56708a;background:#f1f5f9;padding:5px 8px;border-radius:8px;display:inline-block;margin:3px 3px 0 0}
+@media(max-width:1050px){.sidebar{width:225px}.main{margin-left:225px;width:calc(100% - 225px)}.metrics{grid-template-columns:repeat(3,1fr)}.grid{grid-template-columns:repeat(2,1fr)}}
+@media(max-width:760px){.sidebar{display:none}.main{margin-left:0;width:100%}.mobile-top{display:flex;position:fixed;top:0;left:0;right:0;height:58px;background:rgba(7,28,54,.96);z-index:30;color:#fff;align-items:center;justify-content:space-between;padding:0 16px}.mobile-top strong{font-size:14px}.mobile-top a{color:#fff;text-decoration:none}.hero{padding:95px 24px 38px;min-height:460px}.hero h2{font-size:38px}.hero .role{font-size:16px}.tagline{font-size:18px}.content{padding:20px 18px 55px}.metrics{grid-template-columns:repeat(2,1fr);margin-top:-25px}.metric{padding:15px}.metric strong{font-size:22px}.grid,.about{grid-template-columns:1fr}.section{padding-top:40px}.section h3{font-size:25px}.cta{display:block}.cta .btn{margin-top:18px}.social{display:none}}
 </style>
-
 </head>
-
 <body>
-
-<header>
-
-<nav>
-
-<div><strong>Dr. Mir Wasim Raja</strong></div>
-
-<div>
-<a href="#about">About</a>
-<a href="#research">Research</a>
-<a href="#highlights">Highlights</a>
-<a href="#contact">Contact</a>
-</div>
-
+<div class="mobile-top"><strong>Dr. Mir Wasim Raja</strong><a href="#research">☰</a></div>
+<div class="app">
+<aside class="sidebar">
+<div class="brand"><div class="brand-mark">⚗</div><h1>Dr. Mir Wasim Raja</h1><p>Scientific Portfolio</p></div>
+<nav class="nav">
+<a class="active" href="#home"><span>⌂</span>Home</a><a href="#about"><span>●</span>About Me</a><a href="#research"><span>⚗</span>Research</a><a href="#projects"><span>▣</span>Projects</a><a href="#publications"><span>▤</span>Publications</a><a href="#patents"><span>◇</span>Patents & Technology</a><a href="#group"><span>♟</span>Research Group</a><a href="#facilities"><span>⚙</span>Facilities & Capabilities</a><a href="#awards"><span>♜</span>Awards & Recognition</a><a href="#resources"><span>▧</span>Resources & Media</a><a href="#cv"><span>▤</span>CV</a><a href="#contact"><span>✉</span>Contact</a>
 </nav>
-
-</header>
-
-<div class="container">
-
-<section class="hero">
-
-<div class="text">
-<img src="logo.png" alt="MWR Research Logo" width="500" style="margin-bottom:20px;">
-<h1>Dr. Mir Wasim Raja</h1>
-
-<h3>Scientist-E/ प्रधान वैज्ञानिक
-Faculty of Engineering Sciences, Academy of Scientific and Innovative Research (AcSIR) / असिस्टेंट प्रोफेसर, इंजीनियरिंग साइंस (एसीएसआईआर)</h3>
-
-<p>
-Energy Materials & Devices Division
-ऊर्जा सामग्री और उपकरण विभाग
-CSIR- Central Glass and Ceramic Research Institute
-सीएसआईआर-केंद्रीय काँच एवं सिरामिक अनुसंधान संस्थान
-Ministry of Science & Technology, Govt. of India
-(विज्ञान और प्रौद्योगिकी मंत्रालय, भारत सरकार)
-196 Raja S C Mullick Road/ 196, राजा एस सी मल्लिक रॉड
-कोलकाता 700032, पश्चिम बंगाल, भारत
-</p>
-
+<div class="social"><a href="#">G</a><a href="#">iD</a><a href="#">RG</a><a href="#">in</a><a href="#">GH</a></div>
+</aside>
+<main class="main" id="home">
+<section class="hero"><div class="hero-inner"><div class="eyebrow">Energy Materials & Devices Division · CSIR-CGCRI</div><h2>Dr. Mir Wasim Raja</h2><p class="role">Principal Scientist (Scientist-E)</p><div class="org">CSIR – Central Glass & Ceramic Research Institute · Kolkata, India</div><div class="tagline">Advanced Materials for a Sustainable Energy Future</div></div></section>
+<div class="content">
+<section class="metrics"><div class="metric"><strong>Research</strong><span>Energy materials & devices</span></div><div class="metric"><strong>SSB</strong><span>Solid-state battery research</span></div><div class="metric"><strong>VRFB</strong><span>Redox-flow battery materials</span></div><div class="metric"><strong>EIS / DRT</strong><span>Electrochemical characterization</span></div><div class="metric"><strong>TRL ≤ 5</strong><span>Technology development focus</span></div></section>
+<section class="section" id="about"><div class="section-head"><div><h3>About Me</h3><p>Scientific profile and research vision</p></div></div><div class="about"><div class="card"><p>I am a Principal Scientist at CSIR–Central Glass & Ceramic Research Institute (CSIR-CGCRI), Kolkata, working in the Energy Materials & Devices Division (EMDD). My research focuses on advanced materials for energy storage and conversion, including solid-state batteries, redox-flow batteries, ceramic electrolytes, functional membranes, and electrochemical characterization.</p><p style="margin-top:14px">My research approach integrates materials design, ceramic processing, electrochemical evaluation, spectroscopy and device engineering to translate materials innovation into practical energy technologies.</p><div style="margin-top:16px"><span class="tag">Solid-State Batteries</span><span class="tag">LLZO</span><span class="tag">NMC</span><span class="tag">VRFB</span><span class="tag">Ceramic Electrolytes</span><span class="tag">EIS / DRT</span></div></div><div class="card"><div class="quote">“From materials innovation to clean energy solutions.”</div><p style="margin-top:20px">Research leadership across mission-mode programmes, energy-storage materials and technology development.</p></div></div></section>
+<section class="section research" id="research"><div class="section-head"><div><h3>Research Focus</h3><p>Core scientific themes and technologies</p></div></div><div class="grid">
+<div class="card"><div class="icon">◈</div><h4>Solid-State Batteries</h4><p>LLZO-based ceramic electrolytes, monolithic cell architectures, co-sintering and full-cell engineering.</p><span class="pill">Energy Storage</span></div>
+<div class="card"><div class="icon">◇</div><h4>Ga-Doped LLZO</h4><p>Interface engineering and dual solid–liquid therapy using sintering aids and solvated ionic liquids.</p><span class="pill">Ceramic Electrolyte</span></div>
+<div class="card"><div class="icon">▱</div><h4>Redox-Flow Batteries</h4><p>Functional ion-exchange membranes and paper-based ceramic separators for VRFB applications.</p><span class="pill">VRFB</span></div>
+<div class="card"><div class="icon">▤</div><h4>PAPERATOR / PAPELYTE</h4><p>Paper-based ceramic membrane/separator platforms combining porosity, ion transport and selective functionality.</p><span class="pill">Membranes</span></div>
+<div class="card"><div class="icon">●</div><h4>Biomass-Derived Carbon</h4><p>Conversion of sustainable biomass resources into functional carbon materials for energy applications.</p><span class="pill">Sustainable Materials</span></div>
+<div class="card"><div class="icon">⌁</div><h4>EIS & DRT</h4><p>Electrochemical impedance analysis, equivalent-circuit interpretation and Distribution of Relaxation Times.</p><span class="pill">Characterization</span></div>
+</div></section>
+<section class="section" id="projects"><div class="section-head"><div><h3>Projects</h3><p>Selected research programmes and mission-mode activities</p></div></div><div class="grid">
+<div class="card"><div class="icon">01</div><h4>Energy Storage Platform on Batteries (ESPoB)</h4><p>DST-MECSP programme focused on battery materials and energy-storage technology development.</p></div>
+<div class="card"><div class="icon">02</div><h4>CSIR Mission: Solid-State Batteries</h4><p>Mission-mode research on solid electrolytes, monolithic cell design, materials engineering and full-cell evaluation.</p></div>
+<div class="card"><div class="icon">03</div><h4>CSIR Mission: Waste to Wealth</h4><p>Research involving sustainable conversion of waste/biomass resources into useful functional materials.</p></div>
+<div class="card"><div class="icon">04</div><h4>CSIR Mission: Redox Flow</h4><p>Advanced membrane and separator development for redox-flow battery systems.</p></div>
+</div></section>
+<section class="section" id="patents"><div class="section-head"><div><h3>Patents & Technology</h3><p>From materials innovation toward technology translation</p></div></div><div class="grid"><div class="card"><div class="icon">⚡</div><h4>Engineered Ceramic Solid Electrolyte</h4><p>Patent work around engineered ceramic electrolyte compositions and interfaces for solid-state batteries.</p></div><div class="card"><div class="icon">▰</div><h4>Monolithic All-Solid-State Battery</h4><p>Provisional patent work covering a monolithic cathode–electrolyte battery architecture.</p></div><div class="card"><div class="icon">↗</div><h4>Technology Translation</h4><p>Research programmes are organized around materials development, cell fabrication and progression toward higher technology readiness.</p></div></div></section>
+<section class="section" id="publications"><div class="section-head"><div><h3>Selected Research Outputs</h3><p>Publication and manuscript highlights can be expanded into a searchable database</p></div></div><div class="card"><div class="publication"><div class="year">2026</div><div><h4>Ga-doped LLZO with dual solid–liquid interface therapy</h4><p>Research on ionic conductivity, interfacial resistance, electrochemical stability and long-duration Li plating/stripping.</p></div></div><div class="publication"><div class="year">2026</div><div><h4>Monolithic cathode–glass–electrolyte architecture</h4><p>Co-sintered ceramic/electrode design for all-solid-state battery development.</p></div></div><div class="publication"><div class="year">2025+</div><div><h4>Functional membranes and sustainable energy materials</h4><p>Research spanning VRFB membranes, ceramic separators, biomass-derived carbon and electrochemical characterization.</p></div></div></div></section>
+<section class="section" id="group"><div class="section-head"><div><h3>Research Group</h3><p>Students, researchers and collaborative projects</p></div></div><div class="grid"><div class="card"><h4>Current Research Team</h4><p>Research activities across solid-state batteries, redox-flow batteries, membranes and electrochemical characterization.</p></div><div class="card"><h4>PhD Researchers</h4><p>Dedicated research projects with emphasis on materials development, electrochemistry and device engineering.</p></div><div class="card"><h4>Collaboration</h4><p>Interdisciplinary work connecting materials science, electrochemistry, ceramics and energy-device engineering.</p></div></div></section>
+<section class="section" id="facilities"><div class="section-head"><div><h3>Facilities & Capabilities</h3><p>Materials processing, characterization and cell evaluation</p></div></div><div class="grid"><div class="card"><h4>Materials Characterization</h4><p>XRD · Raman · microscopy · spectroscopy · surface/structural analysis</p></div><div class="card"><h4>Electrochemical Characterization</h4><p>Battery testing · impedance spectroscopy · DRT · cycling and rate-performance evaluation</p></div><div class="card"><h4>Ceramic & Cell Processing</h4><p>High-temperature processing · tape casting · pressing · co-sintering · cell fabrication</p></div></div></section>
+<section class="section" id="awards"><div class="section-head"><div><h3>Awards & Recognition</h3><p>Selected professional recognition</p></div></div><div class="card timeline"><div class="event"><span class="dot"></span><b>2025</b><h4>Platinum Jubilee Mid-Career Scientist Award</h4><p>Professional recognition for scientific contributions.</p></div><div class="event"><span class="dot"></span><b>2024</b><h4>Advanced Materials Young Scientist Medal</h4><p>Recognition for contributions in advanced materials research.</p></div><div class="event"><span class="dot"></span><b>—</b><h4>Fellow, Indian Chemical Society</h4><p>Professional scientific recognition.</p></div></div></section>
+<section class="section" id="resources"><div class="section-head"><div><h3>Resources & Media</h3><p>A future space for scientific figures, talks, videos and downloadable research resources</p></div></div><div class="grid"><div class="card"><h4>Research Figures</h4><p>Graphical abstracts, microscopy, electrochemical plots and scientific schematics.</p></div><div class="card"><h4>Presentations</h4><p>Selected invited talks, conference presentations and project reviews.</p></div><div class="card"><h4>Research Videos</h4><p>Short explainers on materials, battery architectures and laboratory technologies.</p></div></div></section>
+<section class="section" id="cv"><div class="cta"><div><h3>Academic CV</h3><p>A complete CV, publication list and research profile can be added here as downloadable documents.</p></div><a class="btn" href="#contact">Request CV →</a></div></section>
+<section class="section" id="contact"><div class="section-head"><div><h3>Contact & Research Profiles</h3><p>Connect for collaboration, scientific discussion and research opportunities</p></div></div><div class="grid"><div class="card"><h4>Institution</h4><p>CSIR – Central Glass & Ceramic Research Institute (CSIR-CGCRI), Kolkata, India.</p></div><div class="card"><h4>Research Profiles</h4><p>ORCID · Google Scholar · ResearchGate · LinkedIn · GitHub</p></div><div class="card"><h4>Scientific Collaboration</h4><p>For research collaboration, technology development, student research and academic communication.</p></div></div></section>
 </div>
-
-<div class="image">
-
-<img src="profile.jpg" alt="Dr. Mir Wasim Raja">
-
-</div>
-
-</section>
-
-<section id="about">
-
-<h2>About</h2>
-
-<p>
-
-Dr. Mir Wasim Raja is a Principal Scientist at the CSIR–Central Glass & Ceramic Research Institute (CSIR-CGCRI), Kolkata, India, where he leads research in advanced materials for electrochemical energy storage...
-
-</p>
-<section id="research">
-
-<h2>Research Interests</h2>
-
-<ul>
-
-<li>All-Solid-State Lithium Batteries</li>
-
-<li>Garnet-type (LLZO) Solid Electrolytes</li>
-
-<li>Solid-State Ionics</li>
-
-<li>Interface Engineering</li>
-
-<li>Ceramic Electrolytes</li>
-
-<li>Paper-Based Ceramic Separators (PAPERATOR)</li>
-
-<li>Redox Flow Batteries</li>
-
-<li>Electrochemical Energy Storage</li>
-
-<li>Sustainable Energy Materials</li>
-
-</ul>
-
-</section>
-
-<section id="highlights">
-
-<h2>Selected Highlights</h2>
-
-<ul>
-
-<li>Principal Scientist, CSIR–CGCRI</li>
-
-<li>Fellow, Indian Chemical Society</li>
-
-<li>CSIR Platinum Jubilee Mid-Career Scientist Award</li>
-
-<li>IAAM Advanced Materials Young Scientist Medal</li>
-
-<li>Principal Investigator of National Battery Research Projects</li>
-
-<li>Inventor of Multiple Energy Storage Technologies</li>
-
-</ul>
-
-</section>
-
-<section id="contact">
-
-<h2>Contact</h2>
-
-<p>
-
-<b>Dr. Mir Wasim Raja</b><br>
-
-Principal Scientist<br>
-
-CSIR–Central Glass & Ceramic Research Institute<br>
-
-196 Raja S. C. Mullick Road<br>
-
-Kolkata – 700032, India
-
-</p>
-
-</section>
-
-</div>
-
-<footer>
-
-© 2026 Dr. Mir Wasim Raja | CSIR–CGCRI
-
-</footer>
-
-</body>
-</html>
+<footer class="footer">© 2026 Dr. Mir Wasim Raja · Scientific Portfolio · CSIR-CGCRI, Kolkata</footer>
+</main></div>
+<script>if('serviceWorker' in navigator){window.addEventListener('load',()=>navigator.serviceWorker.register('sw.js').catch(()=>{}));}</script>
+</body></html>
