@@ -1,9 +1,16 @@
 # Dr. Mir Wasim Raja — Scientific Portfolio
 
-V14 — self-contained facility-image build. Facility photographs are embedded directly in `index.html`, so the Facilities & Capabilities images will display even if the `assets` folder is not uploaded separately.
+GitHub Pages-ready static portfolio.
 
-For GitHub Pages, upload/replace the files in this package at the repository root. The `assets/facilities/` folder is retained as a backup but is not required for the embedded facility images.
+## Publish
+1. Create/open repository `drmwraja.github.io`.
+2. Upload `index.html` and the `assets` folder.
+3. Enable GitHub Pages from repository settings if needed.
+
+## Personalize
+- Replace placeholder external profile links in `index.html`.
+- Add the preferred profile/hero photograph at `assets/cgcri-hero.jpg`.
+- Expand publications, patents, projects and team entries with verified records.
 
 
-## Institutional branding
-CSIR and CSIR-CGCRI logos are incorporated in the sidebar, hero, and footer. Logo image files are also retained under `assets/branding/`.
+Projects updated with three additional Co-PI projects: DST-SERB sodium-ion electrolyte, CSIR-NCP SOFC fuel-flexibility, and CSIR-CSPS lithium recovery.
