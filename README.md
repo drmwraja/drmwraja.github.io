@@ -4,7 +4,7 @@ GitHub Pages-ready static portfolio.
 
 ## Publish
 1. Create/open repository `drmwraja.github.io`.
-2. Upload `index.html` **and the entire `assets` folder** (including `assets/facilities/`). Do not upload only the HTML file.
+2. Upload `index.html` and the `assets` folder.
 3. Enable GitHub Pages from repository settings if needed.
 
 ## Personalize
@@ -14,21 +14,3 @@ GitHub Pages-ready static portfolio.
 
 
 Projects updated with three additional Co-PI projects: DST-SERB sodium-ion electrolyte, CSIR-NCP SOFC fuel-flexibility, and CSIR-CSPS lithium recovery.
-
-
-## V13 upload structure
-
-Keep this exact structure when uploading to GitHub Pages:
-
-```text
-index.html
-icon.svg
-manifest.webmanifest
-sw.js
-assets/
-  facilities/
-    paperator-fabrication.png
-    proton-membrane-casting.jpg
-    cellulosic-iem-zcoat.png
-    research-scaleup-facilities.png
-```
